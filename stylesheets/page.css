@@ -1,0 +1,182 @@
+@import "pagination.css";
+@import "header.css";
+@import "aG.css";
+@import "projectGrid.css";
+@import "contact.css";
+
+a {
+    text-decoration: none;
+    font-family: var(--bodyFont);
+    color: var(--bodyColor);
+}
+
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--bodySize);
+    color: var(--bodyColor);
+    letter-spacing: .3px;
+    font-weight: 700;
+    line-height: 3.5vh;
+}
+
+h2 {
+    text-align: left;
+    font-family: var(--titleFont);
+    font-size: var(--titleSize);
+    color: var(--titleColor);
+    line-height: 0%;
+    margin-bottom: 0;
+}
+
+h2:hover{
+    animation: text 3s alternate infinite;
+}
+
+h3 {
+    margin-top: 11vh;
+    font-family: var(--bodyFont);
+    font-size: var(--subSize);
+    color: var(--bodyColor);
+    letter-spacing: 0.4vw;
+    font-weight: 400;
+}
+
+.aboutGrid {
+    position: relative;
+    z-index: 0;
+    display: inline-flex;
+    padding-top: clamp(12px,14vh,16vh);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.aboutMe {
+    alignment: left;
+    width: 50%;
+    margin: auto 3vw auto
+}
+
+.whitePage {
+    width: 100%;
+    background: #f5f7f8;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+
+:root {
+    --base-color1: #F9F0F2;
+    --base-color2: #E2F0F3;
+    --base-color3: #FFFFFF;
+    --base-color4: #F6F3EC;
+    --base-color5: #FBECE5;
+    --base-color6: #FBDCD0;
+    --degrees: 5deg;
+    --titleSize: clamp(3.2rem, .5692rem + 10.238vw, 15.75rem);
+    --subSize: clamp(2rem, .5692rem + 4.238vw, 8.75rem);
+    --bodySize: clamp(0.5rem, 1.23vw, 2.75rem);
+    --titleFont: 'VT323', monospace;
+    --accentFont: 'Silkscreen', cursive;
+    --bodyFont: 'Anonymous Pro', monospace;
+    --titleColor: #1B3F54;
+    --bodyColor: #57859F;
+/*
+    --accentFont: ;
+    --titleColor:
+    --accentColor:
+    --bodyColor:
+    "gt", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+     */
+ }
+
+[data-scroll] {
+    transition: opacity 2s;
+}
+[data-scroll="in"] {
+    opacity: 1;
+}
+[data-scroll="out"] {
+    opacity: 0;
+}
+
+@keyframes text {
+    0% {
+        font-weight: 500;
+        font-style: initial;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    7% {
+        font-weight: 1000;
+        font-style: italic;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    10% {
+        font-weight: 100;
+        font-style: italic;
+        text-decoration: underline dotted;
+        text-transform: uppercase;
+    }
+    27% {
+        font-weight: 500;
+        font-style: oblique;
+        text-decoration: line-through;
+        text-transform: lowercase;
+    }
+    30% {
+        font-weight: 200;
+        font-style: italic;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+    35% {
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: line-through;
+        text-transform: lowercase;
+    }
+    52% {
+        font-weight: 200;
+        font-style: italic;
+        text-decoration: wavy underline;
+        text-transform: capitalize;
+    }
+    55% {
+        font-weight: 600;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    50% {
+        font-weight: 300;
+        font-style: normal;
+        text-decoration: underline overline;
+        text-transform: lowercase;
+    }
+    72% {
+        font-weight: 100;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    75% {
+        font-weight: 400;
+        font-style: italic;
+        text-decoration: line-through;
+        text-transform: lowercase;
+    }
+    80% {
+        font-weight: 300;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    100% {
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: line-through;
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,82 @@
+.main {
+  background: linear-gradient(-45deg, var(--base-color6), var(--base-color5), var(--base-color4), var(--base-color3),
+          var(--base-color2), var(--base-color1));
+
+  .grain_overlay {
+    position: fixed;
+    left: 0;
+    top: -80%;
+    right: 0;
+    bottom: -80%;
+    z-index: 0;
+    display: block;
+    background-image: url(https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif);
+    background-position: 0 0;
+    background-size: auto;
+    opacity: .05;
+  }
+
+  section {
+    margin: 0;
+    min-height: 100vh;
+    height: auto;
+
+    h1 {
+      font-family: var(--titleFont);
+      font-size: 110px;
+      color: var(--titleColor);
+      margin: 0;
+      padding: clamp(8vh,12vh,14vh) 0 0 clamp(8vh,10vh,14vh);
+      text-align: left;
+      line-height: 100px;
+    }
+  }
+}
+
+#pagination {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  list-style: none;
+
+  li {
+    position: relative;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    transition: all .2s ease;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  a {
+    position: absolute;
+    text-decoration: none;
+    left: 0;
+    top: 0;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+body {
+  margin: 0;
+
+  @for $i from 1 to 6 {
+    &.page-#{$i} {
+      #pagination li:nth-of-type(#{$i}) {
+        @extend %active-dot;
+      }
+    }
+  }
+}
+
+%active-dot {
+  transform: scale(2);
+}
