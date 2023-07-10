@@ -179,3 +179,16 @@
     margin: 0 0 0 3%;
   }
 }
+
+.gameGrid{
+  width: 85%;
+  max-width: 1650px;
+  margin: 0 auto;
+  padding: 0 4vh 4vh 4vh;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 3vw;
+}

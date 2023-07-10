@@ -72,10 +72,10 @@ h3 {
     --base-color5: #FBECE5;
     --base-color6: #FBDCD0;
     --degrees: 5deg;
-    --titleSize: clamp(3.2rem, .5692rem + 10.238vw, 15.75rem);
+    --titleSize: clamp(3.2rem, .3692rem + 10.238vw, 14.75rem);
     --subSize: clamp(2rem, .5692rem + 4.238vw, 8.75rem);
     --bodySize: clamp(0.5rem, 1.23vw, 2.75rem);
-    --titleFont: 'VT323', monospace;
+    --titleFont: 'Montserrat', sans-serif;
     --accentFont: 'Silkscreen', cursive;
     --bodyFont: 'Anonymous Pro', monospace;
     --titleColor: #1B3F54;
