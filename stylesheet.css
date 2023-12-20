@@ -215,21 +215,17 @@ header{
     border-radius: 9999px
 }
 
-footer{
-    padding:30px
-}
-
 .footer{
     display: inline-flex;
     margin-left: 85%;
-    margin-top: 55px;
+    margin-top: 1.5%;
     bottom : 0;
 }
 
 @media (max-width: 750px) {
     .footer{
         display: inline-flex;
-        margin-left: 20%;
+        margin-left: 25%;
     }
 }
 
