@@ -11,9 +11,8 @@ header{
 }
 
 @media (max-width: 750px) {
-    .header{
-        width: 90%;
-        padding: 15px;
+    header{
+        padding: 5%;
     }
 }
 
@@ -116,10 +115,16 @@ header{
     padding: 4.5%;
 }
 
+@media (max-width: 750px) {
+    .projects{
+        padding: 0;
+    }
+}
+
 .projectHolder{
     width: 350px;
     height: 350px;
-    position: relative
+    position: relative;
 }
 
 .projectHolder .tooltiptext{
@@ -210,18 +215,21 @@ header{
     border-radius: 9999px
 }
 
-@media (min-width: 750px) {
-    .footer{
-        display: inline-flex;
-        margin-left: 85%;
-        margin-top: 55px;
-        bottom : 0;
-    }
+footer{
+    padding:30px
 }
+
+.footer{
+    display: inline-flex;
+    margin-left: 85%;
+    margin-top: 55px;
+    bottom : 0;
+}
+
 @media (max-width: 750px) {
     .footer{
         display: inline-flex;
-        width: 100%;
+        margin-left: 20%;
     }
 }
 
@@ -274,4 +282,16 @@ li{
         padding: 20px 20px;
         border-radius: 7px;
     }
+}
+#container {
+    width: 100%;
+}
+
+ul{
+    gap: 10px;
+    list-style: none;
+}
+li{
+    padding: 20px 0;
+    border-radius: 7px;
 }
