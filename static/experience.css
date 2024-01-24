@@ -1,0 +1,46 @@
+.experience{
+    display: inline-flex;
+    margin: 25px 0;
+    width: 100%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.experience-1{
+    align-items: flex-end;
+    width: 50%;
+    background: var(--foreground);
+    border-radius: 25px;
+    height: 100%;
+}
+
+.experience-2{
+    align-items: flex-end;
+    width: 50%;
+    background: var(--foreground);
+    border-radius: 25px;
+    height: 100%;
+}
+
+.experience-text{
+    height: 100%;
+    padding: 10px 30px;
+}
+
+.company-logo{
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    .experience{
+        display: block;
+    }
+
+    .experience-1{
+        width: 100%;
+    }
+
+    .experience-2{
+        width: 100%;
+    }
+}
