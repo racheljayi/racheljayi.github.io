@@ -79,6 +79,24 @@
         padding: 10px 30px;
     }
 
+    .about ul{
+        list-style: none;
+        padding-left: 0;
+        display: inline-flex;
+        gap: 30px;
+    }
+
+    .about img{
+        width: 50px;
+    }
+
+    .about a{
+        text-decoration: none;
+        text-underline: none;
+        width: 90%;
+        color: var(--secondary-content);
+    }
+
     .education{
         width: 49%;
         background: var(--foreground);

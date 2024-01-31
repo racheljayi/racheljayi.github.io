@@ -34,3 +34,8 @@ h3{
 p{
     font-family: PhantomSans, serif;
 }
+
+a{
+    text-underline: none;
+    color: var(--secondary-content);
+}

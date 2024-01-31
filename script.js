@@ -20,3 +20,4 @@ function show_project(elmnt){
 function scrollTo(elmnt){
     document.getElementById(elmnt).scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
 }
+

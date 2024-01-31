@@ -16,6 +16,7 @@
     display: block;
     width: 180px;
     color: var(--primary-content);
+    font-family: PhantomSans, sans-serif;
     padding: 15px 0;
 }
 
@@ -56,6 +57,23 @@ input[type="radio"]:checked+label{
     width: 50%;
     margin-right: 10px;
     padding: 0 20px;
+}
+
+.project-text ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+    padding-top: 5px;
+    padding-left: 0;
+    font-family: PhantomSans, serif;
+}
+
+.project-text li{
+    background: var(--secondary);
+    color: var(--secondary-content);
+    padding: 10px;
+    border-radius: 10px;
+    white-space: nowrap
 }
 
 .project-graphic{
