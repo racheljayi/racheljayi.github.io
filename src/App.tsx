@@ -8,10 +8,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      <div className="bg-blue-600 w-[100vw] h-[100vh]">
+      <div className="bg-blue-600 w-100 h-[100vh]">
             
       </div>
-      <div className="bg-purple-500 w-[100vw] h-[100vh]">
+      <div className="bg-purple-500 w-100 h-[100vh]">
             
       </div>
       
