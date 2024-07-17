@@ -1,0 +1,95 @@
+{
+    "projects": [
+        {
+            "Image": "Project-Cards/echo.png",
+            "Name": "Echo",
+            "Subtitle": "Facial Recognition Playlists",
+            "Github": "https://github.com/Gwon-Stephen/MoodMusic",
+            "About": "Led the full stack development of web application Echo, a Carnegie Mellon TartanHacks 2024 project that leverages facial and mood recognition technology to queue and curate personalized music playlists for users. - Implemented a backend infrastructure utilizing Flask to handle user authentication, data processing, and interaction with external APIs such as OpenCV, DeepFace, and the Spotify Web API. - Leveraged machine learning and data analysis algorithms over 200+ songs to fine-tune playlist recommendations - *Collaborated closely with team members to divide tasks, resolve technical challenges, and ensure timely delivery of project milestones. Presented the project to a panel of judges at TartanHacks, articulating technical intricacies, design decisions, and potential applications of facial recognition in personalized music experiences.",
+            "Tags": [
+                "Java"
+            ]
+        },
+        {
+            "Image": "Project-Cards/sonicast.png",
+            "Name": "SoniCast",
+            "Subtitle": "Custom Spotify WebApp",
+            "Github": "https://github.com/racheljayi/SoniCast",
+            "About": "Still under development",
+            "Tags": [
+                "Python3",
+                "OpenAI",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "Image": "Project-Cards/gameoflife.png",
+            "Name": "Game of Life",
+            "Subtitle": "Simple Cellular Automaton Simulation",
+            "Github": "https://github.com/racheljayi/GameOfLife",
+            "About": "Based on John Conway’s Game of Life, this project is a simulation of a grid of cells that evolve, reproduce, and die based on certain rules. <br><br> To incorporate what I've learned in my Foundations of Biology elective,  I modified the original rules of the simulation to account for lifespan and decay over time. Each cell is assigned a value that decreases each step of the simulation, as if getting closer to the end of its life expectancy. <br><br> This model can take many different configurations of my rules, which in turn affect the patterns that can be observed. <br><br> In the future, I anticipate using this model as a basis for a multi-player game where the goal is to “devour” the other player’s cells or “conquer” the entire board.",
+            "Tags": [
+                "C++"
+            ]
+        },
+        {
+            "Image": "Project-Cards/tinyshadows.png",
+            "Name": "Tiny Shadows",
+            "Subtitle": "2-Player Platformer Game",
+            "Github": "https://github.com/racheljayi/TinyShadows",
+            "About": "Tiny Shadows is a 2D, local 2-player platformer game around 10 minutes long, developed for the 2023 GameMaker's Toolkit Game Jam. I chose to create it with the Godot 4 engine due to the engine's beginner-friendly and through documentation. <br><br> This project was inspired by other pixel art platformers such as Celete. I decided to make this a two-player game to my interpretation of the theme 'Switching Roles,' as the two players will have to take turns pushing levers, pressing buttons, and platforming to help each other through the five levels. <br><br> As this was a solo project, my responsibilities covered game & art design, animation, and core gameplay development. Since this was my first experience with Godot 4 and with game development in general, this was a very challenging process. Fortunately, I was able to find many good resources to ease the difficulty. <br><br> A feature I would love to highlight is the multi-target camera used in this game, which allows for both players to always remain on-screen without the use of split-screen through dynamic zooming. It achieves this through frame-by-frame linear interpolation of all its targets.",
+            "Tags": [
+                "Game Jam",
+                "Godot4"
+            ]
+        }, 
+        {
+            "Image": "Project-Cards/huddleUp",
+            "Name": "huddleUp",
+            "Subtitle": "Social Media Web Application",
+            "Github": "http://github.com/amb10/huddleUp",
+            "About": "huddleUp is a social media platform designed for college students to easily find and join social events on campus. It allows users to make accounts, post events, and sign up for activities. <br><br> This platform was made during the 2023 SteelHacks Hacakthon using Python and Flask with a SQL database of users. I worked on this project with a team of four and I was mainly in charge of the backend. The features I was responsible for include joining events and tracking the users involved in each event, post tagging and filtering, and post updates and deletions. <br><br> At the time, our team did not have a lot of experience working on full-stack projects. As a result, we decided to use Flask for our project for the ease of setup, and a simple SQL schema.",
+            "Tags": [
+                "Python3",
+                "Flask"
+            ]
+        },
+        {
+            "Image": "Project-Cards/keyfinder.png",
+            "Name": "KeyFinder",
+            "Subtitle": "AI-Powered Keycard Maker",
+            "Github": "http://github.com/racheljayi/KeyFinder",
+            "About": "KeyFinder is a full-stack Flask webApp that identifies key vocabulary in a given text and creates key cards for the user. It was created as a solo project for the SheInnovates 2023 Hackathon as a study tool for students. <br><br> KeyFinder uses the ChatGPT API to identify keywords in the text. Then, it utilizes the Google Knowledge Bank Search API to find definitions for each keyword within the context of the text. It was originally tested on passages from my roommate’s biology textbook; however, it can also be prompted to read from literary texts or articles, making it widely applicable. <br><br> My biggest challenge with this project was with the frontend. I had little experience working with web development prior to this project.",
+            "Tags": [
+                "Python3",
+                "Flask",
+                "MySQL"
+            ]
+        },
+        {
+            "Image": "Project-Cards/riotcreche.png",
+            "Name": "RiotCreche",
+            "Subtitle": "Python Machine Learning Model",
+            "Github": "http://github.com/racheljayi/RiotCreche",
+            "About": "RiotCreche is a machine learning model that aims to predict a game outcome given two League of Legends team compositions. <br><br> The dataset used in this project was webscraped from game analytics site OP.GG. It includes the team compositions and results of the last 20 games of each of the top 100 worldwide players at the time. After cleaning the data, this model builds a random-forest classifier to predict a game outcome. Factors such as a character's role, position, and counterpicks were taken into account. <br><br> This model is not very accurate as League of Legends has a constantly changing meta and varying factors beyond team composition. But, it was a fun exercise for me nonetheless and allowed me to practice manipulating data, working with large datasets, and using Python frameworks for game",
+            "Tags": [
+                "Python3",
+                "NumPy",
+                "PANDAS",
+                "SKlearn"
+            ]
+        },
+        {
+            "Image": "Project-Cards/picturesque.png",
+            "Name": "Picturesque",
+            "Subtitle": "Color Identitfying WebApp",
+            "Github": "http://github.com/racheljayi/picturesque",
+            "About": "Picturesque is a simple webapp that can build a color palette by identifying key colors in any image.",
+            "Tags": [
+                "Java",
+                "Maven",
+                "Vaadin"
+            ]
+        }
+    ]
+}
