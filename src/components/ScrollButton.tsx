@@ -19,7 +19,7 @@ const ScrollButton = (props: props) => {
 	};
 
 	return (
-		<button className='text-[#265681]' onClick={scrollToDiv}>
+		<button className='text-rachelBlue' onClick={scrollToDiv}>
 			<p className="font-phantomSans text-lg tracking-tighter">{props.name}</p>
 		</button>
 	);
