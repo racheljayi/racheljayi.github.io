@@ -43,9 +43,10 @@ export default function Experience() {
 
     return (
         <div id="experience" className="bg-rachelCream w-100 flex align-center justify-center">
+            {/* random rectangle */}
             <div className="absolute left-[20vw] bg-rachelBlue w-[60vw] h-[0.5vh]"></div>
+            
             <div className="row flex flex-wrap w-[80%] my-20">
-                {/* Experiences */}
                 <div className="column w-1/3 px-3 space-y-8">
                     <h1 className="text-4xl">Experiences</h1>
                     {

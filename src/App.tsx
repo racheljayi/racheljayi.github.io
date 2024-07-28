@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Interests from './components/Interests'
 import About from './components/About'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Interests />
       <About />
       <Experience />
-      
+      <Projects />
+      <div className='bg-rachelCream w-full h-[15vh]'></div>
     </>
   )
 }

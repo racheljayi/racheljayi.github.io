@@ -1,10 +1,10 @@
-type props = {
+type experience = {
     date: string;
     title: string;
     desc: string;
 }
 
-export default function ExperienceCard(props: props) {
+export default function ExperienceCard(props: experience) {
     return (
         <div className="text-left w-[80%]">
             <p className="text-rachelBlue">{ props.date }</p>
