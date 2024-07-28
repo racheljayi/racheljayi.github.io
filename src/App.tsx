@@ -1,8 +1,9 @@
 import './App.css'
-import Header from './components/header'
-import Hero from './components/hero'
-import Interests from './components/interests'
-import About from './components/about'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Interests from './components/Interests'
+import About from './components/About'
+import Experience from './components/Experience'
 
 function App() {
 
@@ -12,9 +13,7 @@ function App() {
       <Hero />
       <Interests />
       <About />
-      <div className="bg-purple-500 w-100 h-[100vh]">
-            
-      </div>
+      <Experience />
       
     </>
   )
