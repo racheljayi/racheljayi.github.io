@@ -1,0 +1,74 @@
+{
+    "experiences": [
+        {
+            "date": "June 2024 - Present",
+            "title": "Software Development Intern",
+            "desc": "PNC BANK, C&IB Team"
+        },
+        {
+            "date": "January 2024 - Present",
+            "title": "Research Assistant",
+            "desc": "UNIVERSITY OF PITTSBURGH, Human-Autonomy Teaming Lab"
+        },
+        {
+            "date": "June 2023 - April 2024",
+            "title": "Software Development Intern",
+            "desc": "U.S. STEEL, Internal Applications Team; Data Science and Machine Learning Team"
+        },
+        {
+            "date": "June 2022 - August 2022",
+            "title": "Technology Intern",
+            "desc": "TREND MICRO, IT CX Team"
+        }
+    ],
+    "extracurriculars": [
+        {
+            "date": "August 2022 - Present",
+            "name": "Women in Computer Science Club",
+            "desc": ""
+        },
+        {
+            "date": "August 2022 - Present",
+            "name": "Computer Science Club at Pitt",
+            "desc": ""
+        },
+        {
+            "date": "February 2024",
+            "name": "TartanHacks 2024",
+            "desc": "Hosted by Carnegie Mellon"
+        },
+        {
+            "date": "August 2023",
+            "name": "GMTK Game Jam",
+            "desc": "Hosted by GameMaker's Toolkit"
+        },
+        {
+            "date": "March 2023",
+            "name": "SteelHacks 2023",
+            "desc": "Hosted by University of Pittsburgh"
+        },
+        {
+            "date": "February 2023",
+            "name": "SheInnovates 2023",
+            "desc": "Hosted by University of Pittsburgh"
+        }
+    ],
+    "education": {
+        "school": {
+            "date": "August 2022 - December 2025",
+            "degree": "Bachelor's Degree, Computer Science",
+            "school": "UNIVERSITY OF PITTSBURGH"
+        },
+        "coursework": [
+            "Algorithms and Data Structures I-II",
+            "Calculus I-II",
+            "Linear Algebra",
+            "Systems Software",
+            "Operating Systems",
+            "Web Design",
+            "Cloud Computing",
+            "Game Design and Implementation",
+            "Software Quality Assurance"
+          ]
+    }
+}
