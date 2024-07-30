@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ExpandedProject from "./ExpandedProject"; // Ensure this import is correct
 
