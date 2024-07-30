@@ -11,7 +11,7 @@ export default function ExpandedProject(props: Project) {
     return (
         <div className="relative w-[45vw] h-full rounded-[50px] bg-[#8D97B2] flex items-center absolute">
             <div
-                className="absolute inset-0 z-0"
+                className="absolute inset-0 z-0 rounded-[50px] "
                 style={{
                     backgroundImage: 'url("/backgrounds/Waterloo.jpg")',
                     backgroundSize: 'cover',
