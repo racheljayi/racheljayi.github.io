@@ -1,6 +1,17 @@
 {
     "projects": [
         {
+            "image": "project-cards/snakzy.png",
+            "name": "Snakzy",
+            "subtitle": "Mobile Puzzle Game",
+            "github": "https://racheljayi.github.io/SnakzySite/",
+            "about": "Snakzy is a single-player mobile puzzle game based on the popular arcade game Snake and the tile puzzle game 2048. By swiping and combining alike snakes, create longer snakes and increase your score! <br><br> Solo-developed in Unity with C#.",
+            "tags": [
+                "Unity",
+                "C#"
+            ]
+        },
+        {
             "image": "project-cards/echo.png",
             "name": "Echo",
             "subtitle": "Facial Recognition Playlists",
