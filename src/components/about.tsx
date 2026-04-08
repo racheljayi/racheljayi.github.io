@@ -29,9 +29,9 @@ export default function About() {
         </h1>
 
         <p className="">
-          I'm an undergraduate computer science student currently based in
-          Pittsburgh. My career interests include software engineering, machine
-          learning and AI, and game development.
+          I'm a software engineer at Plaid working on real-time fraud
+          detection and risk scoring. My career interests include product
+          engineering, machine learning and AI, and game development.
           <br />
           <br />
           Feel free to contact me at{" "}

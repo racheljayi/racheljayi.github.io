@@ -1,12 +1,22 @@
 {
     "experiences": [
         {
-            "date": "June 2024 - Present",
+            "date": "February 2026 - Present",
+            "title": "Software Engineer",
+            "desc": "Plaid, Product Engineering"
+        },
+        {
+            "date": "May 2025 - August 2025",
+            "title": "AI Engineering Intern",
+            "desc": "Activistion Blizzard - Infinity Ward, Gameplay AI"
+        },
+        {
+            "date": "June 2024 - August 2024",
             "title": "Software Development Intern",
             "desc": "PNC BANK, C&IB Team"
         },
         {
-            "date": "January 2024 - Present",
+            "date": "January 2024 - April 2024",
             "title": "Research Assistant",
             "desc": "UNIVERSITY OF PITTSBURGH, Human-Autonomy Teaming Lab"
         },
@@ -23,12 +33,12 @@
     ],
     "extracurriculars": [
         {
-            "date": "August 2022 - Present",
+            "date": "August 2022 - December 2025",
             "name": "Women in Computer Science Club",
             "desc": ""
         },
         {
-            "date": "August 2022 - Present",
+            "date": "August 2022 - December 2025",
             "name": "Computer Science Club at Pitt",
             "desc": ""
         },

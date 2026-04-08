@@ -4,19 +4,19 @@ export default function Interests() {
       <div className="h-[8vh] w-full bg-rachelCream flex overflow-hidden space-x-16">
         <div className="flex items-center whitespace-nowrap text-rachelBlue text-lg flex space-x-16 animate-loop-scroll">
           <span className="text-3xl tracking-tighter font-extralight">
-            <strong className="font-black">Fullstack</strong> Development
-          </span>
-          <span className="text-3xl tracking-tighter font-extralight">
-            <strong className="font-black">Agile</strong> Development
-          </span>
-          <span className="text-3xl tracking-tighter font-extralight">
             <strong className="font-black">Machine</strong> Learning
           </span>
           <span className="text-3xl tracking-tighter font-extralight">
             <strong className="font-black">Game</strong> Development
           </span>
           <span className="text-3xl tracking-tighter font-extralight">
-            Consumer Experience
+            <strong className="font-black">Fullstack</strong> Development
+          </span>
+          <span className="text-3xl tracking-tighter font-extralight">
+            <strong className="font-black">Feature</strong> Engineering
+          </span>
+          <span className="text-3xl tracking-tighter font-extralight">
+            <strong className="font-black">Product</strong> Ownership
           </span>
         </div>
         <div
@@ -24,19 +24,19 @@ export default function Interests() {
           aria-hidden="true"
         >
           <span className="text-3xl tracking-tighter font-extralight">
-            <strong className="font-black">Fullstack</strong> Development
-          </span>
-          <span className="text-3xl tracking-tighter font-extralight">
-            <strong className="font-black">Agile</strong> Development
-          </span>
-          <span className="text-3xl tracking-tighter font-extralight">
             <strong className="font-black">Machine</strong> Learning
           </span>
           <span className="text-3xl tracking-tighter font-extralight">
             <strong className="font-black">Game</strong> Development
           </span>
           <span className="text-3xl tracking-tighter font-extralight">
-            Consumer Experience
+            <strong className="font-black">Fullstack</strong> Development
+          </span>
+          <span className="text-3xl tracking-tighter font-extralight">
+            <strong className="font-black">Feature</strong> Engineering
+          </span>
+          <span className="text-3xl tracking-tighter font-extralight">
+            <strong className="font-black">Product</strong> Ownership
           </span>
         </div>
       </div>

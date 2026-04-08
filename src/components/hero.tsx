@@ -30,7 +30,7 @@ export default function Hero() {
             <p className="text-rachelBlue font-bricela text-5xl z-10">
               Rachel Jan's
             </p>
-            <p className="text-white font-bricela text-9xl">Porftolio</p>
+            <p className="text-white font-bricela text-9xl">Portfolio</p>
           </div>
           <div className="absolute bottom-[20%] flex justify-center items-center space-x-10">
             <img src="/icons/backward.png" className="h-[10vh]" />
