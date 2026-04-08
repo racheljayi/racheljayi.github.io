@@ -9,7 +9,7 @@ type Project = {
 
 export default function ExpandedProject(props: Project) {
     return (
-        <div className="relative w-[45vw] h-full rounded-[50px] bg-[#8D97B2] flex items-center absolute">
+        <div className="relative w-[45vw] max-w-[90vw] max-h-[85vh] rounded-[50px] bg-[#8D97B2] flex items-center absolute overflow-hidden">
             <div
                 className="absolute inset-0 z-0 rounded-[50px] "
                 style={{
@@ -20,7 +20,7 @@ export default function ExpandedProject(props: Project) {
                 }}
             />
         
-            <div className="relative z-10 w-[40vw] my-[5%] mx-[8%] text-white">
+            <div className="relative z-10 w-[40vw] max-w-[74vw] max-h-[75vh] my-[5%] mx-[8%] text-white overflow-y-auto pr-4">
                 <button onClick={props.onClose} className="absolute top-3 right-5 p-2 rounded z-20">
                     <img src="/icons/delete.png" />
                 </button>
