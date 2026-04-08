@@ -1,8 +1,8 @@
 import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Interests from './components/Interests'
-import About from './components/About'
+import Header from './components/header'
+import Hero from './components/hero'
+import Interests from './components/interests'
+import About from './components/about'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 

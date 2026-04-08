@@ -5,16 +5,16 @@ export default function About() {
       className="h-[95vh] w-full bg-rachelCream flex items-center justify-center space-x-16"
     >
       <div className="flex flex-col items-center space-y-4">
-        <img src="./misc/headshot.jpg" className="h-[65vh] rounded-[50px]" />
+        <img src="/misc/headshot.jpg" className="h-[65vh] rounded-[50px]" />
         <div className="flex space-x-16">
           <a href="mailto:rcj.rachel@gmail.com">
-            <img src="./icons/email.png" className="h-[9vh]" />
+            <img src="/icons/email.png" className="h-[9vh]" />
           </a>
           <a href="https://www.linkedin.com/in/rcjan/">
-            <img src="./icons/linkedin.png" className="h-[9vh]" />
+            <img src="/icons/linkedin.png" className="h-[9vh]" />
           </a>
           <a href="https://github.com/racheljayi">
-            <img src="./icons/github.png" className="h-[9vh]" />
+            <img src="/icons/github.png" className="h-[9vh]" />
           </a>
         </div>
       </div>
