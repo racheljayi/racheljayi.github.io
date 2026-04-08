@@ -28,7 +28,12 @@ export default function Experience() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/experience-data.json');
+                const response = await fetch('/experience-data.json', {
+                    cache: 'no-store',
+                });
+                if (!response.ok) {
+                    throw new Error(`Failed to load experience data: ${response.status}`);
+                }
                 const jsonData = await response.json();
                 setExperiences(jsonData.experiences);
                 setExtracurriculars(jsonData.extracurriculars);
